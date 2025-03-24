@@ -1,11 +1,11 @@
 # PPIB-PHP
-A Laravel-based web application built as part of a technical assessment. Demonstrates proficiency in backend development, routing, database management, and MVC architecture.
+# Projeto API em PHP com Docker
 
-# Avaliação - API Rest com Laravel
+# Avaliação - API Rest com PHP
 
 ## Descrição
 
-Este repositório contém a solução para uma avaliação de processo seletivo, onde foi desenvolvida uma **API Rest** utilizando o framework **Laravel**. A API foi projetada para gerenciar informações sobre servidores efetivos e temporários, unidades de lotação e endereços funcionais, conforme os requisitos fornecidos.
+   Este repositório contém a solução para uma avaliação de processo seletivo, onde foi desenvolvida uma **API Rest** com PHP. A API foi projetada para gerenciar informações sobre servidores efetivos e temporários, unidades de lotação e endereços funcionais, conforme os requisitos fornecidos.
 
 ### Pré-requisitos:
 
@@ -13,7 +13,7 @@ Este repositório contém a solução para uma avaliação de processo seletivo,
    O projeto foi desenvolvido de acordo com as orientações fornecidas neste documento. Todas as instruções para execução e testes estão descritas abaixo.
 
 2. **Tecnologias e Ambientes**  
-   - **Linguagem de Programação**: O projeto foi desenvolvido em **PHP** utilizando o framework **Laravel**.
+   - **Linguagem de Programação**: O projeto foi desenvolvido em **PHP**.
    - Para garantir a portabilidade e a consistência do ambiente, o projeto está configurado para rodar em **containers Docker**, facilitando a execução em qualquer máquina.
 
 3. **Serviços em Containers**:
@@ -24,6 +24,7 @@ Este repositório contém a solução para uma avaliação de processo seletivo,
    O ambiente completo pode ser iniciado utilizando o **Docker Compose**. O arquivo `docker-compose.yml` está configurado para levantar os seguintes containers:
    - **Min.io**: Responsável pelo armazenamento de objetos (imagens).
    - **PostgreSQL**: Utilizado para o banco de dados da aplicação.
+     
 ### Requisitos Gerais:
 
 - **Autenticação e Autorização**:
